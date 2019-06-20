@@ -1,9 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    
     <types>
-        <members>TestPipeline</members>
+        <members>MLD_ApexPageMessageUtil</members>
+        <members>MLD_ApexPageMessageUtilTest</members>
+        <members>MLD_AttachmentUploadController</members>
+        <members>MLD_AttachmentUploadControllerTest</members>
+        <members>MLD_ChatterProfileNotFoundException</members>
+        <members>MLD_CheckboxEmployeeSkill</members>
+        <members>MLD_Constants</members>
+        <members>MLD_CustomSettingUtil</members>
+        <members>MLD_EducationBackgroundController</members>
+        <members>MLD_EducationBackgroundControllerTest</members>
+        <members>MLD_EducationBackgroundService</members>
+        <members>MLD_EducationBackgroundServiceTFactory</members>
+        <members>MLD_EducationBackgroundServiceTest</members>
+        <members>MLD_EducationBackgroundTriggerHandler</members>
+        <members>MLD_EmailUtil</members>
+        <members>MLD_EmployeeContractNotifiBatch</members>
+        <members>MLD_EmployeeContractNotifiBatchTest</members>
+        <members>MLD_EmployeeContractNotifiScheduler</members>
+        <members>MLD_EmployeeContractTriggerHandler</members>
+        <members>MLD_EmployeeInfoUtil</members>
+        <members>MLD_EmployeeNotificationUtil</members>
+        <members>MLD_EmployeeNotificationUtilTest</members>
+        <members>MLD_EmployeeNotifyAssignTriggerHandler</members>
+        <members>MLD_EmployeeRegistrationController</members>
+        <members>MLD_EmployeeRegistrationControllerTest</members>
+        <members>MLD_EmploymentInfoContrlExtensionTest</members>
+        <members>MLD_EmploymentInfoControllerExtension</members>
+        <members>MLD_EmploymentInfoDeletePageCX</members>
+        <members>MLD_EmploymentInfoDeletePageCXTest</members>
+        <members>MLD_EmploymentInfoService</members>
+        <members>MLD_EmploymentInfoServiceTest</members>
+        <members>MLD_EmploymentInfoServiceTestFactory</members>
+        <members>MLD_EmploymentInfoTriggerHandler</members>
+        <members>MLD_EmploymentInfoTriggerHandlerTest</members>
+        <members>MLD_ExtenalAccountTriggerHandler</members>
+        <members>MLD_ExternalAccountService</members>
+        <members>MLD_ExternalAccountServiceTest</members>
+        <members>MLD_ExternalAccountServiceTestFactory</members>
+        <members>MLD_ImportDataFromCSVController2</members>
+        <members>MLD_ImportDataFromCSVController2Test</members>
+        <members>MLD_ModalBasedObjectManagementController</members>
+        <members>MLD_NavigationItem</members>
+        <members>MLD_RegistrationFlowValidator</members>
+        <members>MLD_RegistrationStepUtil</members>
+        <members>MLD_RegistrationStepUtilTest</members>
+        <members>MLD_RegistrationWizardActionController</members>
+        <members>MLD_RegistrationWizardActionCtrlTest</members>
+        <members>MLD_SObjectUtil</members>
+        <members>MLD_UnmanagedExternalAccountContrlTest</members>
+        <members>MLD_UnmanagedExternalAccountController</members>
+        <members>MLD_UserTriggerHandler</members>
+        <members>MLD_WorkExperienceController</members>
+        <members>MLD_WorkExperienceControllerTest</members>
+        <members>MLD_WorkExperienceService</members>
+        <members>MLD_WorkExperienceServiceTest</members>
+        <members>MLD_WorkExperienceServiceTestFactory</members>
+        <members>MLD_WorkExperienceTriggerHandler</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>MLD_EmploymentInfoDeletePage</members>
+        <members>MLD_EmploymentInfoDetailsHeaderPage</members>
+        <members>MLD_EmploymentInfoDetailsPage</members>
+        <members>MLD_EmploymentInfoDetailsPage2</members>
+        <members>MLD_EmploymentInfoDetailsPage3</members>
+        <members>MLD_EmploymentInfoDetailsPage4</members>
+        <members>MLD_EmploymentInfoDetailsPage5</members>
+        <members>MLD_EmploymentInfoDetailsPage6</members>
+        <members>MLD_EmploymentInfoDetailsPage7</members>
+        <members>MLD_EmploymentInfoDetailsPage8</members>
+        <members>MLD_ImportDataFromCSV2</members>
+        <members>MLD_RegistrationWizardStep1</members>
+        <members>MLD_RegistrationWizardStep10</members>
+        <members>MLD_RegistrationWizardStep11</members>
+        <members>MLD_RegistrationWizardStep12</members>
+        <members>MLD_RegistrationWizardStep13</members>
+        <members>MLD_RegistrationWizardStep14</members>
+        <members>MLD_RegistrationWizardStep2</members>
+        <members>MLD_RegistrationWizardStep3</members>
+        <members>MLD_RegistrationWizardStep4</members>
+        <members>MLD_RegistrationWizardStep5</members>
+        <members>MLD_RegistrationWizardStep6</members>
+        <members>MLD_RegistrationWizardStep7</members>
+        <members>MLD_RegistrationWizardStep8</members>
+        <members>MLD_RegistrationWizardStep9</members>
         <name>ApexPage</name>
     </types>
-    <version>46.0</version>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>MLD_EducationBackground__c</members>
+        <members>MLD_Emp_Skills__c</members>
+        <members>MLD_EmployeeContractNotificationAssign__c</members>
+        <members>MLD_EmployeeContractNotification__c</members>
+        <members>MLD_EmployeeContract__c</members>
+        <members>MLD_EmployeeInfoNotificationAssign__c</members>
+        <members>MLD_EmploymentInfo__c</members>
+        <members>MLD_ExternalAccount__c</members>
+        <members>MLD_NotificationSettings__c</members>
+        <members>MLD_Salary__c</members>
+        <members>MLD_Skills__c</members>
+        <members>MLD_WorkExperience__c</members>
+        <members>User</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>MLD_Emp_Skills__c</members>
+        <members>MLD_EmployeeContractNotification__c</members>
+        <members>MLD_EmployeeInfoNotificationAssign__c</members>
+        <members>MLD_EmploymentInfo__c</members>
+        <members>MLD_Skills__c</members>
+        <members>Migration_Tool</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>MLD_EmployeeContractTemplate</members>
+        <members>MLD_EmployeeContractTemplate/MLD_Contract_one_year_notification</members>
+        <members>MLD_EmployeeContractTemplate/MLD_Contract_open_ended_notification_1</members>
+        <members>MLD_EmployeeContractTemplate/MLD_Contract_open_ended_notification_2</members>
+        <members>MLD_EmployeeContractTemplate/MLD_Contract_three_year_notification_1</members>
+        <members>MLD_EmployeeContractTemplate/MLD_Contract_three_year_notification_2</members>
+        <members>MLD_EmploymentInfoTemplate</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_EducationBackgroundDelete</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_EducationBackgroundInsert</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_EducationBackgroundUpdate</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_EmployeeContractDelete</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_EmployeeContractInsert</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_EmployeeContractUpdate</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_EmploymentInfoRegister</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_EmploymentInfoUpdate</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_ExternalAccountDelete</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_ExternalAccountInsert</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_ExternalAccountUpdate</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_WorkExperienceDelete</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_WorkExperienceInsert</members>
+        <members>MLD_EmploymentInfoTemplate/MLD_WorkExperienceUpdate</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>GlobalPicklist</name>
+    </types>
+    <types>
+        <members>MLD_EducationBackground__c-Education Layout</members>
+        <members>MLD_Emp_Skills__c-Employee Skills Layout</members>
+        <members>MLD_EmployeeContractNotificationAssign__c-Employee Contract Notification Assign Layout</members>
+        <members>MLD_EmployeeContractNotification__c-Contract Notification Layout</members>
+        <members>MLD_EmployeeContract__c-Employee Contract Layout</members>
+        <members>MLD_EmployeeInfoNotificationAssign__c-MLD_NotificationUser Layout</members>
+        <members>MLD_EmploymentInfo__c-MOT_EmploymentInfo Layout</members>
+        <members>MLD_ExternalAccount__c-External Account Layout</members>
+        <members>MLD_Salary__c-Salary Layout</members>
+        <members>MLD_Skills__c-Skills Layout</members>
+        <members>MLD_WorkExperience__c-Work Experience Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Mulodo Accounting</members>
+        <members>Mulodo Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>MLD</members>
+        <members>MLD_SLDS283</members>
+        <members>MLD_TestData_ListEmployee_10_EmployeeCard</members>
+        <members>MLD_TestData_ListEmployee_10_EmployeeSocicalAccount</members>
+        <members>MLD_TestData_ListEmployee_10_EmployeeVehicle</members>
+        <members>MLD_TestData_ListEmployee_10_EmployeeWorkingExperiences</members>
+        <members>MLD_TestData_ListEmployee_10_ListEmployee</members>
+        <members>MLD_TestData_ListEmployee_20_EmployeeContract</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>MLD_EducationBackground__c</members>
+        <members>MLD_Emp_Skills__c</members>
+        <members>MLD_EmployeeContractNotificationAssign__c</members>
+        <members>MLD_EmployeeContractNotification__c</members>
+        <members>MLD_EmployeeContract__c</members>
+        <members>MLD_EmployeeInfoNotificationAssign__c</members>
+        <members>MLD_EmploymentInfo__c</members>
+        <members>MLD_ExternalAccount__c</members>
+        <members>MLD_NotificationSettings__c</members>
+        <members>MLD_Salary__c</members>
+        <members>MLD_Skills__c</members>
+        <members>MLD_WorkExperience__c</members>
+        <name>Workflow</name>
+    </types>
+    <version>36.0</version>
 </Package>
